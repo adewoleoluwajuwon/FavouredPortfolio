@@ -5,10 +5,11 @@ import copyrightSign from './copyright-sign.svg'
 import facebook from './facebook.svg'
 import hamburger from './hamburger.svg'
 import instagram from './instagram.svg'
-import support from './support.svg'
-import shieldTick from './shield-tick.svg'
+import support from './support.png'
+import shieldTick from './shield-tick.png'
+import online from './online.png'
 import star from './star.svg'
-import truckFast from './truck-fast.svg'
+import home from './home.gif'
 import twitter from './twitter.svg'
 
 export {
@@ -21,7 +22,8 @@ export {
     instagram,
     support,
     shieldTick,
+    online,
     star,
-    truckFast,
+    home,
     twitter
 }

@@ -1,46 +1,44 @@
-import bigShoe1 from './big-shoe1.png'
-import bigShoe2 from './big-shoe2.png'
-import bigShoe3 from './big-shoe3.png'
+import bigfavour1 from "./bigfavour1.jpg";
+import bigfavour2 from "./bigfavour2.jpg";
+import bigfavour3 from "./bigfavour3.jpg";
 
-import customer1 from './customer1.jpeg'
-import customer2 from './customer2.svg'
+import customer1 from "./customer1.webp";
+import customer2 from "./customer2.jpg";
 
-import footerLogo from './footer-logo.svg'
-import headerLogo from './header-logo.svg'
+import footerLogo from "./footer-logo.svg";
+import headerLogo from "./logo.jpg";
 
-import offer from './offer.svg'
+import offer from "./offer.jpg";
 
-import shoe4 from './shoe4.svg'
-import shoe5 from './shoe5.svg'
-import shoe6 from './shoe6.svg'
-import shoe7 from './shoe7.svg'
-import shoe8 from './shoe8.svg'
+import activity1 from "./activity1.jpg";
+import activity2 from "./activity2.jpg";
+import activity3 from "./activity3.jpg";
+import activity4 from "./activity4.jpg";
 
-import thumbnailBackground from './thumbnail-background.svg'
-import thumbnailShoe1 from './thumbnail-shoe1.svg'
-import thumbnailShoe2 from './thumbnail-shoe2.svg'
-import thumbnailShoe3 from './thumbnail-shoe3.svg'
+import shoe8 from "./shoe8.svg";
+
+import thumbnailBackground from "./thumbnail-background.svg";
+
+import thumbnailFavour1 from "./thumbnail-Favour1.png";
+import thumbnailFavour2 from "./thumbnail-Favour2.jpg";
+import thumbnailFavour3 from "./thumbnail-Favour3.jpg";
 
 export {
-    bigShoe1,
-    bigShoe2,
-    bigShoe3,
-
-    customer1,
-    customer2,
-
-    footerLogo,
-    headerLogo,
-
-    offer,
-    shoe4,
-    shoe5,
-    shoe6,
-    shoe7,
-    shoe8,
-
-    thumbnailBackground,
-    thumbnailShoe1,
-    thumbnailShoe2,
-    thumbnailShoe3
-}
+  bigfavour1,
+  bigfavour2,
+  bigfavour3,
+  customer1,
+  customer2,
+  footerLogo,
+  headerLogo,
+  offer,
+  activity1,
+  activity2,
+  activity3,
+  activity4,
+  shoe8,
+  thumbnailBackground,
+  thumbnailFavour1,
+  thumbnailFavour2,
+  thumbnailFavour3,
+};

@@ -1,7 +1,7 @@
 import Nav from "./Components/Nav";
 import {
   Hero,
-  PopularProduct,
+  LearningActivities,
   SuperQuality,
   Services,
   SpecialOffer,
@@ -17,7 +17,7 @@ const APP = () => (
       <Hero />
     </section>
     <section className="sm:px-16 px-8 sm:py-24 py-12">
-      <PopularProduct />
+      <LearningActivities />
     </section>
     <section className="sm:px-16 px-8 sm:py-24 py-12">
       <SuperQuality />

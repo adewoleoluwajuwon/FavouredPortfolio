@@ -11,32 +11,30 @@ const Footer = () => {
       >
         <div className="flex flex-col items-start">
           <a href="/">
-            <img src={footerLogo} alt="footer-logo" width={150} height={46} />
+            <img src={footerLogo} alt="Bright Futures Logo" width={150} height={46} />
           </a>
           <p
             className="mt-6 text-base leading-7 font-[montserrat]
           text-white sm:max-w-sm"
           >
-            Get shoes ready for the new term at your nearest Nike Store. Find
-            your perfect size in-store. Get rewards.
+            Bright Futures with Mrs. Favour - Nurturing young minds with engaging lessons, personalized learning, and curriculum support for a brighter future.
           </p>
 
           <div className="flex items-center gap-5 mt-8">
             {socialMedia.map((icon) => (
-              <div
-                key={icon.alt}
-                className="flex justify-center items-center w-12 h-12
-                bg-white rounded-full"
-              >
-                <img src={icon.src} alt={icon.alt} width={24} height={24} />
-              </div>
+              <a key={icon.alt} href={icon.link} target="_blank" rel="noopener noreferrer">
+                <div className="flex justify-center items-center w-12 h-12 bg-white rounded-full">
+                  <img src={icon.src} alt={icon.alt} width={24} height={24} />
+                </div>
+              </a>
             ))}
           </div>
+
         </div>
 
         <div className="flex flex-1 justify-between lg:gap-10 gap-20 flex-wrap">
           {footerLinks.map((section) => (
-            <div key={section}>
+            <div key={section.title}>
               <h4
                 className="text-white font-[montserrat]
               text-2xl leading-normal font-medium mb-6"
@@ -71,13 +69,13 @@ const Footer = () => {
         >
           <img
             src={copyrightSign}
-            alt="copy right sign"
+            alt="Copyright sign"
             width={20}
             height={20}
             className="rounded-full m-0"
           />
           <p className="font-[montserrat] cursor-pointer">
-            Copyright. All rights reserved.
+            Copyright. All rights reserved. Bright Futures with Mrs. Favour.
           </p>
         </div>
       </div>

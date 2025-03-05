@@ -1,5 +1,5 @@
 import { useState } from "react";
-import headerLogo from "/assets/images/header-logo.svg";
+import headerLogo from "/assets/images/logo.jpg";
 import hamburger from "/assets/icons/hamburger.svg";
 import closeIcon from "/assets/icons/close.svg"; // Add a close icon
 import { navLinks } from "../constants";
@@ -8,10 +8,15 @@ const Nav = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
-    <header className="w-full px-8 absolute z-20 sm:px-16">
+    <header className="w-full px-8 absolute z-20 sm:px-16 shadow-2xl">
       <nav className="flex justify-between items-center max-w-[1440px] m-auto">
         <a href="/">
-          <img src={headerLogo} alt="Nike-Logo" width={130} height={29} />
+          <img
+            src={headerLogo}
+            alt="Bright Futures with Mrs. Favour"
+            width={80}
+            height={30}
+          />
         </a>
 
         {/* Desktop Menu */}

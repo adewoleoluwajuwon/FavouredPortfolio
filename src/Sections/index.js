@@ -1,6 +1,6 @@
 import Nav from "./Nav";
 import Hero from "./Hero";
-import PopularProduct from "./PopularProduct";
+import LearningActivities from "./LearningActivities";
 import SuperQuality from "./SuperQuality";
 import Services from "./Service";
 import SpecialOffer from "./SpecialOffer";
@@ -11,7 +11,7 @@ import Footer from "./Footer";
 export {
   Nav,
   Hero,
-  PopularProduct,
+  LearningActivities,
   SuperQuality,
   Services,
   SpecialOffer,

@@ -2,144 +2,168 @@ import {
   facebook,
   instagram,
   shieldTick,
+  online,
   support,
-  truckFast,
+  home,
   twitter,
 } from "/assets/icons";
 import {
-  bigShoe1,
-  bigShoe2,
-  bigShoe3,
+  bigfavour1,
+  bigfavour2,
+  bigfavour3,
   customer1,
   customer2,
-  shoe4,
-  shoe5,
-  shoe6,
-  shoe7,
-  thumbnailShoe1,
-  thumbnailShoe2,
-  thumbnailShoe3,
+  activity1,
+  activity2,
+  activity3,
+  activity4,
+
+
+  // new on portfolio
+  thumbnailFavour1,
+  thumbnailFavour2,
+  thumbnailFavour3,
 } from "/assets/images";
 
 export const navLinks = [
   { href: "#home", label: "Home" },
-  { href: "#about-us", label: "About Us" },
-  { href: "#products", label: "Products" },
-  { href: "#contact-us", label: "Contact Us" },
+  { href: "#about-us", label: "About Me" },
+  { href: "#products", label: "Teaching Approach" },
+  { href: "#contact-us", label: "Contact" },
 ];
 
-export const shoes = [
+export const favourImages = [
   {
-    thumbnail: thumbnailShoe1,
-    bigShoe: bigShoe1,
+    thumbnail: thumbnailFavour1,
+    favour: bigfavour1,
   },
   {
-    thumbnail: thumbnailShoe2,
-    bigShoe: bigShoe2,
+    thumbnail: thumbnailFavour2,
+    favour: bigfavour2,
   },
   {
-    thumbnail: thumbnailShoe3,
-    bigShoe: bigShoe3,
+    thumbnail: thumbnailFavour3,
+    favour: bigfavour3,
   },
 ];
 
 export const statistics = [
-  { value: "1k+", label: "Brands" },
-  { value: "500+", label: "Shops" },
-  { value: "250k+", label: "Customers" },
+  { value: "10+", label: "years of inspiring young minds!" },
+  { value: "95%", label: " of students achieve top grades!" },
+  { value: "Rated 4.9⭐", label: " by students & parents!" },
 ];
 
 export const services = [
   {
-    imgURL: truckFast,
-    label: "Free shipping",
-    subtext: "Enjoy seamless shopping with our complimentary shipping service.",
+    imgURL: home,
+    label: "Home Lessons",
+    subtext: "Personalized one-on-one teaching sessions tailored to your child's learning needs in the comfort of your home.",
   },
   {
     imgURL: shieldTick,
-    label: "Secure Payment",
-    subtext:
-      "Experience worry-free transactions with our secure payment options.",
+    label: "Classroom Lessons",
+    subtext:"Engaging group learning experiences designed to foster social skills, teamwork, and knowledge growth.",
+
   },
   {
     imgURL: support,
-    label: "Love to help you",
-    subtext: "Our dedicated team is here to assist you every step of the way.",
+    label: "Curriculum Building",
+    subtext: "Expertly designed lesson plans and structured learning materials to enhance early childhood education.",
+  },
+  {
+    imgURL: online,
+    label: "Online Lessons",
+    subtext: "Interactive and engaging virtual lessons tailored for young learners, fostering creativity and foundational skills from the comfort of home.",
   },
 ];
 
 export const reviews = [
   {
     imgURL: customer1,
-    customerName: "Morich Brown",
-    rating: 4.5,
+    customerName: "Mrs. Racheal Ade",
+    category: "Parent",
+    rating: 5,
     feedback:
-      "The attention to detail and the quality of the product exceeded my expectations. Highly recommended!",
+      "The home lessons have been a game-changer for my child! Mrs. Favour is patient and engaging, making learning so much fun!",
   },
   {
     imgURL: customer2,
-    customerName: "Lota Mongeskar",
-    rating: 4.5,
+    customerName: "Prince Segun Logan",
+    category: "School Administrator",
+    rating: 4.8,
     feedback:
-      "The product not only met but exceeded my expectations. I'll definitely be a returning customer!",
+      "The structured curriculum support has improved our teaching methods significantly. Students are now more enthusiastic about learning!",
   },
+  // {
+  //   imgURL: customer3,
+  //   customerName: "Rebecca Philips",
+  //   category: "Student",
+  //   rating: 5,
+  //   feedback:
+  //     "I love learning with Mrs. Favour! The fun activities and interactive lessons make every class exciting. I feel so confident now!",
+  // },
 ];
+
 
 export const footerLinks = [
   {
-    title: "Products",
+    title: "Learning Resources",
     links: [
-      { name: "Air Force 1", link: "/" },
-      { name: "Air Max 1", link: "/" },
-      { name: "Air Jordan 1", link: "/" },
-      { name: "Air Force 2", link: "/" },
-      { name: "Nike Waffle Racer", link: "/" },
-      { name: "Nike Cortez", link: "/" },
+      { name: "Interactive Storybooks", link: "/" },
+      { name: "Educational Games", link: "/" },
+      { name: "Phonics & Reading Tools", link: "/" },
+      { name: "Creative Worksheets", link: "/" },
+      { name: "Fun Learning Videos", link: "/" },
+      { name: "Hands-on Activities", link: "/" },
     ],
   },
+  
   {
     title: "Help",
     links: [
-      { name: "About us", link: "/" },
+      { name: "About Me", link: "#about-us" },
       { name: "FAQs", link: "/" },
-      { name: "How it works", link: "/" },
-      { name: "Privacy policy", link: "/" },
-      { name: "Payment policy", link: "/" },
+      { name: "Teaching Approach", link: "/" },
+      { name: "Privacy Policy", link: "/" },
+      { name: "Terms & Conditions", link: "/" },
     ],
   },
   {
     title: "Get in touch",
     links: [
-      { name: "customer@nike.com", link: "mailto:customer@nike.com" },
-      { name: "+92554862354", link: "tel:+92554862354" },
+      { name: "favorjadebayo1996@gmail.com", link: "mailto:favorjadebayo1996@gmail.com" },
+      { name: "09018878650", link: "tel:+2349018878650" },
+      { name: "WhatsApp", link: "https://wa.link/fmpsd3" },
     ],
   },
 ];
 
 export const socialMedia = [
-  { src: facebook, alt: "facebook logo" },
-  { src: twitter, alt: "twitter logo" },
-  { src: instagram, alt: "instagram logo" },
+  { src: facebook, alt: "facebook logo", link: "https://www.facebook.com/favorj.adebayo" },
+  { src: twitter, alt: "twitter logo", link: "" },
+  { src: instagram, alt: "instagram logo", link: "http://instagram.com/favorjadebayo/" },
 ];
-export const products = [
+
+
+export const Activities = [
   {
-    imgURL: shoe4,
-    name: "Nike Air Jordan-01",
-    price: "$200.20",
+    imgURL: activity1,
+    name: "Storytelling & Reading  📖",
+    price: "$80",
   },
   {
-    imgURL: shoe5,
-    name: "Nike Air Jordan-10",
-    price: "$210.20",
+    imgURL: activity2,
+    name: "Hands-on Math Activities 🧮",
+    price: "$100",
   },
   {
-    imgURL: shoe6,
-    name: "Nike Air Jordan-100",
+    imgURL: activity3,
+    name: "Science & Nature Activities 🌱",
     price: "$220.20",
   },
   {
-    imgURL: shoe7,
-    name: "Nike Air Jordan-001",
+    imgURL: activity4,
+    name: "Puzzle & Problem-Solving Games 🧩",
     price: "$230.20",
   },
 ];

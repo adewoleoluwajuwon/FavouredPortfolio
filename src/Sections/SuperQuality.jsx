@@ -1,5 +1,5 @@
 import Button from "../Components/Button";
-import shoe8 from "/assets/images/shoe8.svg";
+import teacherImage from "/assets/images/teacher.jpg";
 
 const SuperQuality = () => {
   return (
@@ -10,33 +10,32 @@ const SuperQuality = () => {
     >
       <div className="flex flex-1 flex-col">
         <h2 className="font-[Palanquin] text-4xl capitalize font-bold lg:max-w-lg">
-          We Provide your
-          <span className="text-[#f73d3e]">Super Quality</span>
-          <span className="text-[#f73d3e]">Quality</span> Shoes
+          I Provide <span className="text-[#1D4ED8]">Quality Learning</span>
           <br />
-          <span className="text-[#f73d3e] inline-block mt-7">Nike</span>
-          Shoes
+          <span className="text-[#F59E0B] inline-block mt-7">
+            & A Nurturing Environment
+          </span>
         </h2>
-        <p className="text-lg font-[Montserrat] text-[#708090] leading-7 mt-4 lg:max-w-lg">
-          Ensuring premium comfort and style, our Nike collection is designed
-          for your active lifestyle. Providing quality, innovation and a touch
-          of elegance.
+        <p className="text-lg font-[Montserrat] text-[#4B5563] leading-7 mt-4 lg:max-w-lg">
+          Helping young minds grow through interactive lessons, creativity, and
+          a supportive learning environment. 
         </p>
-        <p className="mt-6 lg:max-w-lg font-[Montserrat] text-[#708090] leading-7">
-          Our dedication to detail and excellence ensures your satisfaction
+        <p className="mt-6 lg:max-w-lg font-[Montserrat] text-[#4B5563] leading-7">
+          My dedication to early childhood education ensures each child
+          thrives in a fun, engaging, and caring space.
         </p>
 
         <div className="mt-11">
-          <Button label="View details" />
+          <Button label="Explore My Teaching Approach" />
         </div>
       </div>
       <div className="flex flex-1 justify-center items-center">
         <img
-          src={shoe8}
-          alt="shoe8"
-          width={570}
-          height={522}
-          className="object-contain"
+          src={teacherImage}
+          alt="Teacher in Classroom"
+          width={500}
+          height={450}
+          className="rounded-2xl shadow-lg shadow-gray-300 border-2 border-[#F59E0B] object-cover"
         />
       </div>
     </section>

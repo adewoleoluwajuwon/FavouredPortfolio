@@ -1,6 +1,6 @@
 import star from "/assets/icons/star.svg";
 
-const ReviewCard = ({ imgURL, customerName, rating, feedback }) => {
+const ReviewCard = ({ imgURL, customerName, rating, feedback, category }) => {
   return (
     <div
       className="flex justify-center items-center
@@ -29,6 +29,7 @@ const ReviewCard = ({ imgURL, customerName, rating, feedback }) => {
       </div>
       <h3 className="mt-1 font-[palanquin] text-3xl text-center font-bold">
         {customerName}
+        {category && <span className="text-[#1D4ED8]"> ({category})</span>}
       </h3>
     </div>
   );
