@@ -1,5 +1,5 @@
 import { footerLinks, socialMedia } from "../constants";
-import footerLogo from "/assets/images/footer-logo.svg";
+import footerLogo from "/assets/images/footer-logo.jpg";
 import copyrightSign from "/assets/icons/copyright-sign.svg";
 
 const Footer = () => {
