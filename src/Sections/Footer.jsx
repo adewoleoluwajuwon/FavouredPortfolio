@@ -77,6 +77,9 @@ const Footer = () => {
           <p className="font-[montserrat] cursor-pointer">
             Copyright. All rights reserved. Bright Futures with Mrs. Favour.
           </p>
+          <p className="font-[montserrat] cursor-pointer">
+          Powered by IReact. WhatsApp 08130788513
+          </p>
         </div>
       </div>
     </footer>
